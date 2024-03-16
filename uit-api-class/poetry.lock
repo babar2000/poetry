@@ -98,6 +98,16 @@ files = [
 ]
 
 [[package]]
+name = "library"
+version = "0.0.0"
+description = "Useful library package stuff."
+optional = false
+python-versions = "*"
+files = [
+    {file = "Library-0.0.0.tar.gz", hash = "sha256:f1b5c50d6e4baeb45c251ca83991c1880d44769621bc94078535513435c9b917"},
+]
+
+[[package]]
 name = "pydantic"
 version = "2.6.4"
 description = "Data validation using Python type hints"
@@ -267,4 +277,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "8e8f09902d8b6e76dacf7c4ea68550e950c657d3b3a3f886e75e118c61ac55a3"
+content-hash = "59479cc1bedffee136ddd3d3070101dc7287f9c37d546d7a57d1c2fc92af85de"
